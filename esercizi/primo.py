@@ -56,8 +56,6 @@ print(frame_ritornati)
 
 
 
-
-
 # le parentesi quadre si inseriscono con alt(dx) + è
 
 # le parentesi graffe si inseriscono con alt(dx) + SHIFT + è
