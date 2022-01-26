@@ -1,7 +1,6 @@
 import os
 os.system('clear')
 
-# sono un cambio
 un_minuto_frames                     = 25 * 60
 un_ora_di_frames                     = un_minuto_frames * 60
 un_ora_di_amore_ti_vorrei            = " solo un'ora "
@@ -46,12 +45,13 @@ def chiedi_il_frameRate():
         print('no, ok, grazie, ma che ci faccio?')
         chiedi_il_frameRate()
 
-
-
-
-
-
-
+def dammi_un_timecode():
+    tc = input("dammi il tuo timecode finale e ti dirò a quanti frame corrisponde:\n")
+    # "00:03:45:23"
+    tc_splittato = tc.split(":")
+    ore   =  int(tc_splittato[0])
+# ____ da completare a casa
+ 
 saluto_glorioso_al_sole()
 chiedi_quante_ore_vuole()
 chiedi_il_frameRate()
@@ -59,19 +59,4 @@ frame_ritornati = dimme_quanti_frame_in_ore(quante_ore_questo_me_vo_fa_calcolare
 print(frame_ritornati) 
 
 
-
-
-
-
-# le parentesi quadre si inseriscono con alt(dx) + è
-
-# le parentesi graffe si inseriscono con alt(dx) + SHIFT + è
-
-# "juve merda"                -> str
-
-# 25  (numero intero)        ->  int
-
-# 25.1 (numero frazionario)  ->  float
-
-# print ("juve mmerda")
-
+ 

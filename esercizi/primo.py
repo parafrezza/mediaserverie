@@ -46,11 +46,7 @@ def chiedi_il_frameRate():
         chiedi_il_frameRate()
 
 
-
-
-
-
-
+ 
 saluto_glorioso_al_sole()
 chiedi_quante_ore_vuole()
 chiedi_il_frameRate()
