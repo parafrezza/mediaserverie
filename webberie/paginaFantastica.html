@@ -3,9 +3,14 @@
         <title>Pagina fantastica</title>
     </head>
 
+
     <body>
+        <img src=".\immagineFantastica.jpg" alt="questa scritta se non appare" width="500" height="600">
+       
         <h1>  Niente. </h1>
         <h2>  Un mezzo niente </h2>
+
+        <button onclick="raddoppia()"> raddoppia</button>
 
         <ul>
             <li>una roba</li>
@@ -13,6 +18,24 @@
             <li>un'ultima roba</li>
         </ul>
 
+        <script>
+
+            var carlo = 10;
+            var gino = 44;
+            var somma = gino + carlo;
+            
+            var campoDoveMettoLaSomma = document.createElement("H2");
+            campoDoveMettoLaSomma.innerText = somma;
+
+            document.body.append(campoDoveMettoLaSomma);
+
+            function raddoppia()
+            {
+                somma = somma*2
+                campoDoveMettoLaSomma.innerText = somma;
+            }
+
+        </script>
 
     </body>
 
